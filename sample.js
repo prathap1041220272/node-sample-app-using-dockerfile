@@ -46,14 +46,14 @@ var transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-        user: 'sivaprathap.konduru@gmail.com',
-        pass: 'siva4568'
+        user: 'sivaprathap@gmail.com',
+        pass: 'xxxxx'
     }
 });
 
 var mailOptions = {
     from: 'sivaprathap.konduru@gmail.com',
-    to: 'prathapsiva2456@gmail.com, insearchlooks@gmail.com',
+    to: 'prathap456@gmail.com, insearch@gmail.com',
     subject: 'Hello',
     text: 'Hello world',
     html: '<b>Hello world</b>'
